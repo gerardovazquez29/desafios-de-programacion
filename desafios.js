@@ -3,31 +3,31 @@
 //* realizar la tabla del numero 6 haciendo uso de ciclo 
 //* ciclo do-while
 
-/* let numero = 0; */
-/* let resultado  */
-/* do{ */
-/*     resultado = numero * 6 */
-/*     console.log('Resultado : ', numero, ' x  6 = ', resultado); */
-/*     numero++ */
-/* }while (numero <= 10);  */
-/*     console.log('_____________'); */
+let numero = 0;
+let resultado 
+do{
+    resultado = numero * 6
+    console.log('Resultado : ', numero, ' x  6 = ', resultado);
+    numero++
+}while (numero <= 10); 
+    console.log('_____________');
 
 
 //* ciclo while
-/* let numero = 0; */
-/* while (numero <= 10) { */
-/*     resultado = numero * 6; */
-/*     console.log('Resultado : ', numero, ' x 6 = ', resultado); */
-/*     numero++; */
-/* } */
-/* console.log('____________') */
+let numeros = 0;
+while (numeros <= 10) {
+    resultado = numeros * 6;
+    console.log('Resultado : ', numeros, ' x 6 = ', resultado);
+    numeros++;
+}
+console.log('____________')
 
 
  //*ciclo for
-/* for (let i = 0; i <= 10; i++) { */
-/*     resultado = i *6; */
-/*     console.log('Resultado : ', i , ' x 6 = ', resultado, ); */
-/* } */
+for (let i = 0; i <= 10; i++) {
+    resultado = i *6;
+    console.log('Resultado : ', i , ' x 6 = ', resultado, );
+}
 
 
 // *1- Muestra una alerta con el mensaje "¡Bienvenida y bievenido a nuestro sitio web!".
@@ -58,70 +58,70 @@ let saldoDisponible = 1000;
 
 /* //* 6- Muestra una alerta con el texto "¡Error! Completa todos los campos". */
 
-/* alert('¡Error! Completa todos los campos.'); */
+alert('¡Error! Completa todos los campos.');
 
 
 //* 7- Declara una variable llamada mensajeDeError y asígnale el valor "¡Error! Completa todos los campos". Ahora muestra una alerta con el valor de la variable mensajeDeError .
 
-/* let mensajeDeError = "¡Error! Completa todos los campos"; */
-/* alert(mensajeDeError); */
+let mensajeDeError = "¡Error! Completa todos los campos";
+alert(mensajeDeError);
 
 
 //* 8- Utiliza un prompt para preguntar el nombre del usuario y almacénalo en la variable nombre .
 
-/* let nombre2 = prompt('ingresa tu nombre'); */
+let nombre2 = prompt('ingresa tu nombre');
 
 
 // *9- Pide al usuario que ingrese su edad usando un prompt y almacénala en la variable edad.
 
-/* let edad2 = prompt('ingresa tu edad'); */
+let edad2 = prompt('ingresa tu edad');
 
 
 //* 10- Ahora, si la edad es mayor o igual a 18, muestra una alerta con el mensaje "¡Puedes obtener tu licencia de conducir!".
 
-/* if (edad2 >= 18) { */
-/*     alert('¡Puedes obtener tu licencia de conducir!.'); */
-/* } */
+if (edad2 >= 18) {
+    alert('¡Puedes obtener tu licencia de conducir!.');
+}
 
 
 //* 1- Pregunta al usuario qué día de la semana es. Si la respuesta es "Sábado" o "Domingo", muestra "¡Buen fin de semana!". De lo contrario, muestra "¡Buena semana!".
 
-/* let diaSemana = prompt('¿Que dia de la semana es?'); */
-/* if (diaSemana === 'sabado' || diaSemana == 'domingo') { */
-/*     alert('buen fin de Semana'); */
-/*  } else { */
-/*     alert('buena semana'); */
-/* } */
+let diaSemana = prompt('¿Que dia de la semana es?');
+if (diaSemana === 'sabado' || diaSemana == 'domingo') {
+    alert('buen fin de Semana');
+ } else {
+    alert('buena semana');
+}
 
 //* 2- Verifica si un número ingresado por el usuario es positivo o negativo. Muestra una alerta informativa.
 
-/* let numeroAgregado = prompt('ingresa un numero'); */
-/* if (numeroAgregado > 0 ) { */
-/*     alert(`el numero que ingresaste: ${numeroAgregado} es positivo`); */
-/* }else if (numeroAgregado < 0) { */
-/*     alert(`el numero que agregaste: ${numeroAgregado} es negativo`); */
-/* } else { */
-/*     alert(`el numero que agregaste: ${numeroAgregado} es neutro`); */
-/* } */
+let numeroAgregado = prompt('ingresa un numero');
+if (numeroAgregado > 0 ) {
+    alert(`el numero que ingresaste: ${numeroAgregado} es positivo`);
+}else if (numeroAgregado < 0) {
+    alert(`el numero que agregaste: ${numeroAgregado} es negativo`);
+} else {
+    alert(`el numero que agregaste: ${numeroAgregado} es neutro`);
+}
 
 //* 3- Crea un sistema de puntuación para un juego. Si la puntuación es mayor o igual a 100, muestra "¡Felicidades, has ganado!". En caso contrario, muestra "Intenta nuevamente para ganar.".
 
-/* let puntos = 100; */
-/* if (puntos >= 100 ) { */
-/*     alert("¡Felicidades, has ganado!"); */
-/* } else { */
-/*     alert("Intenta nuevamente para ganar."); */
-/* } */
+let puntos = 100;
+if (puntos >= 100 ) {
+    alert("¡Felicidades, has ganado!");
+} else {
+    alert("Intenta nuevamente para ganar.");
+}
 
 //* 4- Crea un mensaje que informe al usuario sobre el saldo de su cuenta, utilizando un template string para incluir el valor del saldo.
 
-/* let saldo = prompt('ingrese su saldo'); */
-/* alert(`su saldo es: ${saldo}`); */
+let saldo = prompt('ingrese su saldo');
+alert(`su saldo es: ${saldo}`);
 
 //* 5- Pide al usuario que ingrese su nombre mediante un prompt. Luego, muestra una alerta de bienvenida usando ese nombre.
 
-/* let nombreUsuario = prompt('introduse tu nombre de Usuario'); */
-/* alert(`bienvenido ${nombreUsuario}`); */
+let nombreUsuario = prompt('introduse tu nombre de Usuario');
+alert(`bienvenido ${nombreUsuario}`);
 
 //* 1- Crea un contador que comience en 1 y vaya hasta 10 usando un bucle 'while'. Muestra cada número.
 

@@ -35,12 +35,12 @@ let miArreglo = [1, 2, 3, 4];
 
 miArreglo[2] = 10;
 
-console.log(miArreglo); // Salida: [1, 2, 10, 4]
+console.log(miArreglo); //* Salida: [1, 2, 10, 4]
 ~~~
 
 * Lista Enlazada
 ~~~javaScript
-// Definición del nodo de la lista enlazada
+//* Definición del nodo de la lista enlazada
 class Node {
   constructor(data) {
     this.data = data; // Valor del nodo
@@ -48,7 +48,7 @@ class Node {
   }
 }
 
-// Definición de la lista enlazada
+//* Definición de la lista enlazada
 class LinkedList {
   constructor() {
     this.head = null; // Puntero al primer nodo de la lista
