@@ -151,7 +151,7 @@ while (contador3 <= cuentaProgresiva) {
     contador3++;
 }
 //* 1- Crea un programa que utilice console.log para mostrar un mensaje de bienvenida. */
-
+console.log('hola vienvenidos');
 
 
 //* 2- Crea una variable llamada "nombre" y asígnale tu nombre. Luego, utiliza console.log para mostrar el mensaje "¡Hola, [tu nombre]!" en  la consola del navegador. */
